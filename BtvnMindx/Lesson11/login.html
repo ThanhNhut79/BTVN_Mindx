@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trang Đăng nhập</title>
+    <link rel="stylesheet" type="text/css" href="./style/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Đăng nhập</h2>
+      <form>
+        <div class="form-group">
+          <label for="username">Tên đăng nhập</label>
+          <input type="text" id="usernameLogin" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="passwordLogin" required />
+        </div>
+        <input type="submit" value="Đăng nhập" onclick="login()" />
+        <a href="./index.html">Đăng Ký</a>
+      </form>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
